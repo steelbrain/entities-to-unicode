@@ -15,7 +15,7 @@ function escapeChar(chr: string) {
   return escape[chr]
 }
 
-export default function escapeExpression(input: string): string {
+export default function entitiesToUnicode(input: string): string {
   let string = input
   if (typeof string !== 'string') {
     // don't escape SafeStrings, since they're already safe

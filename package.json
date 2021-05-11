@@ -1,6 +1,6 @@
 {
   "name": "@steelbrain/entities-to-unicode",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Encode HTML Entities to Unicode characters",
   "main": "lib/cjs/index.js",
   "typings": "lib/typings/index.d.ts",

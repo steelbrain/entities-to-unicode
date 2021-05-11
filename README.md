@@ -16,6 +16,8 @@ This package was inspired from [Handlbars.Utils.escapeExpression][inspiration], 
 
 This is helpful when sending emails with both cleartext and HTML versions, as you can re-use your variables across both.
 
+NOTE: Do not encode URLs with unicode, they will break.
+
 #### License
 
 This project is licensed under the terms of MIT License. See the License file for more info.

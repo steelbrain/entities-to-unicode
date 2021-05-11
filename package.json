@@ -13,6 +13,9 @@
     "./package.json": "./package.json"
   },
   "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "ava",
     "lint": "(tsc -p . --noEmit) && (eslint . --ext .ts) && (prettier --list-different src/*.ts)",

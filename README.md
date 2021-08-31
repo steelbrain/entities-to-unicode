@@ -2,6 +2,14 @@
 
 Encode HTML Entities to Unicode characters
 
+#### Installation
+
+```
+npm install @steelbrain/entities-to-unicode
+# or
+yarn add @steelbrain/entities-to-unicode
+```
+
 #### API
 
 ```js
